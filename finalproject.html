@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final Project</title>
+       
+       <link rel="stylesheet" href="style.css">
+       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+</head>
+<body>
+  <header>
+    <h2><b>Final Project: Student 4 task: Two's Complement</b></h2>
+    
+</header>
+<section>
+  <div class="container">
+  <div class="row">
+  <div class="colum">
+     <h3><i><b>Interactive Web Page demonstrating integers are stored in Two's Complement Notation</b></i></h3>
+	 <h4>Two's Complement</h4>
+          <blockquote>The most popluar system for representing integers within today's computers is <b>two's complement</b> notation. This system uses a fixed number of bits to represent each of the values in the system. In today's equipment, it is common to use a two's complement system in which each value is represented by a pattern of 32 bits. Such a large system allows a wide range of numbers to be represented but is awkward for demonstration purposes. Thus, to study the properties of two's complement systems, we will concentrate on smaller systems. 
+		  
+		  
+		  
+
+	  <p><img src="chart.PNG"></p>
+        <br>
+          <form>
+	1st Number (min: -8, max 7): <input type="text" id="firstNumber" /><br>
+	2nd Number (min: -8, max 7): <input type="text" id="secondNumber" /><br>
+		<input type="button" onClick="convert()" Value="Convert"/>
+
+	</form>		
+		<p>The twos complement for <strong id = "displayFirstNumber"></strong> is :  <span id = "resultNumber1"></span>
+			
+		<p>The twos complement for <strong id = "displaySecondNumber"></strong> is : <span id = "resultNumber2"></span>
+				
+		<p>The twos complement binary addition of the 2 numbers is : <span id = "resultAddition"></span>
+			
+		<p>The base ten addition of the 2 numbers is :<span id = "intAddition"></span>
+         
+		<p>*-----------------------------------------------------------------------------*</p>
+		 </div>
+      </div>
+	  </section>
+    </div>
+  </div>
+
+
+			<div class="backbtn">
+				<a href="project.html" class="btn btn-success"> Back</a>
+			</div>
+<footer>
+    <p>Powered by UB</p>
+</footer>
+</body>
+	<script src="twojava.js"></script>
+</html>

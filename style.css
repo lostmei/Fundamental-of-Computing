@@ -1,0 +1,173 @@
+body {
+    margin: 2;
+    
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+
+  header{
+
+    background-color: Teal;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+  }
+  
+  .nav {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  .nav a {
+    float: left;
+    color: White;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .nav a:hover {
+    background-color: Teal;
+    color: black;
+  }
+  
+
+.heading{
+
+  text-align: center;
+  padding: 20px;
+} 
+
+article{
+
+  padding:10px;
+}
+
+
+a, li{
+
+  text-decoration: none;
+}
+
+li{
+
+  text-decoration: none;
+ 
+
+}
+
+.bmiForm {
+  display: inline-grid;
+  padding: 10px;
+  width: 50%;
+  height: 5%;
+  margin-bottom: 70px;
+
+ 
+  font-size: 22px;
+}
+
+.foc{
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding-top: 20px;
+}
+.flipflop{
+
+
+  width:30%;
+  height: 80%;
+}
+.andgate{
+
+
+  width:50%;
+  height: 60%;
+}
+.orgate{
+
+
+  width:50%;
+  height: 60%;
+}
+.imgfinal{
+	
+	
+  width:50%;
+  height: 60%;
+}
+.back{
+
+  text-align: center;
+  padding: 10px;
+  text-align: center;
+  color: white;
+  position: fixed;
+  left: 0;
+  bottom:4em ;
+  width: 100%;
+  z-index: 999;
+  display: flex;
+}
+
+.menu {
+  width: 500px;
+}
+
+.menu a {
+  background-color: #eee;
+  color: black;
+  display: block;
+  padding: 12px;
+  text-decoration: none;
+}
+
+.menu a:hover {
+  background-color: Teal;
+}
+
+.menu a.active {
+  background-color: Teal;
+  color: white;
+}
+.meimg{
+	text-align: center;
+    width:20%;
+    height:20%;
+    border-radius: 100px;
+	
+
+}
+.column {
+  float: left;
+  width:45.44%;
+  padding: 15px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.img-cache{
+
+  width:500px;
+}
+
+  footer{
+
+    background-color: Teal;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    position: fixed;
+    
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
